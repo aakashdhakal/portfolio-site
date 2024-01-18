@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	/* outline: 1px dotted red; */
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+}
+.navbar ul li {
+	list-style: none;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #000;
+	font: 500 1.2rem "Source Code Pro", sans-serif;
+}
+.primary-btn {
+	background-color: #9c0000;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
