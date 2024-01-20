@@ -28,5 +28,4 @@ export default function App() {
     </div>
   )
 }
-//add preloader during loading
 
