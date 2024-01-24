@@ -1,31 +1,23 @@
-import { useState } from 'react'
 import './style.css'
 
-function Button({ onClick, children }) {
-  return (
-    <button  className="primary-btn" onClick={onClick}>{children}</button>
-  )
+function Button(props) {
+  return <button className="button">{props.label}</button>
 }
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
+      <div className="logo-name">
+       <img src="src/assets/akash.svg" alt="" className="name"/>
+      </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blogs</a></li>
+       <li><Button label="Contact Me" /></li>
       </ul>
     </nav>
   )
 }
 
-export default function App() {
-  const [loading, setLoading] = useState(false)
-
-  return (
-    <div className="App">
-      <Navbar />
-    </div>
-  )
-}
 
