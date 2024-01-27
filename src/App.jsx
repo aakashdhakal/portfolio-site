@@ -1,11 +1,14 @@
 import './style.css'
 import './components/Hero-section/HeroSection.jsx'
 import HeroSection from './components/Hero-section/HeroSection.jsx'
+import Preloader from './components/Preloader/Preloader.jsx'
 
 
 export default function Navbar() {
+
   return (
     <section>
+            <Preloader/>
     <nav className="navbar">
       <div className="logo-name">
        <img src="/src/assets/akash.svg" alt="" className="name"/>
