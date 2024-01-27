@@ -9,7 +9,7 @@
 .navbar {
 	display: flex;
 	justify-content: space-around;
-	gap: 30vw;
+	gap: 5vw;
 	align-items: center;
 	height: 8vh;
 }
@@ -33,14 +33,6 @@
 }
 .navbar ul li a:hover {
 	color: #505050;
-}
-.primary-btn {
-	background-color: #9c0000;
-	border: none;
-	padding: 0.5rem 1rem;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
 }
 .name {
 	object-fit: cover;

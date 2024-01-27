@@ -7,16 +7,19 @@
 	align-items: center;
 	flex-direction: row-reverse;
 	width: 100%;
-	height: max-content;
-	gap: 15rem;
+	height: 75vh;
+	gap: 10vw;
+}
+.hero-section-text h1 {
+	font-size: 3rem;
 }
 
 .hero-section-text {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	flex-direction: column;
-	gap: 30px;
+	gap: 3rem;
 }
 .identity::after {
 	content: "";
@@ -26,15 +29,20 @@
 	background-color: #00aec2;
 	animation: blink 1.5s infinite step-start;
 	opacity: 1;
+	left: 10px;
 }
 .identity {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	gap: 3px;
-	height: 2vh;
+	gap: 4px;
+	height: 2.5vh;
+	font-size: 1.7rem;
+	width: 100%;
+	text-align: left;
+}
+.identity span {
 	color: #00aec2;
-	font-size: 1.5rem;
+	margin: 0 0 0 5px;
 }
 
 @keyframes blink {
