@@ -8,7 +8,7 @@ export default function Navbar() {
     <section>
     <nav className="navbar">
       <div className="logo-name">
-       <img src="src/assets/akash.svg" alt="" className="name"/>
+       <img src="/src/assets/akash.svg" alt="" className="name"/>
       </div>
       <ul>
         <li><a href="#">Home</a></li>

@@ -21,7 +21,7 @@ export default function HeroSection() {
         </Button>
       </div>
       <div className="hero-section-image">
-        <img src="src/assets/illustration.svg" alt=""  />
+        <img src="/src/assets/illustration.svg" alt=""  />
       </div>
     </div>
   )
