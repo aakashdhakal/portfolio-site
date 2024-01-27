@@ -39,7 +39,6 @@ export function typingAnimation(identity) {
       default: {
           const timeOut = setTimeout(() => {
           setPhase("deleting");
-            console.log(Phase);
         }, 2000);
         return () => clearTimeout(timeOut);
         }

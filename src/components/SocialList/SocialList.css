@@ -1,0 +1,19 @@
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	font-weight: 700;
+	transition: all 0.3s ease-in-out;
+}

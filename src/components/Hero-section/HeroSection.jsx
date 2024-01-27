@@ -1,5 +1,6 @@
 import './HeroSection.css'
 import '../Buttons/button.jsx'
+import SocialList from '../SocialList/SocialList.jsx'
 import Button from '../Buttons/button.jsx'
 import { typingAnimation } from '../customHooks/typingAnimation.jsx'
 
@@ -17,6 +18,7 @@ export default function HeroSection() {
       <div className="hero-section-text">
         <h1>Hi, I'm Aakash Dhakal</h1>
         <p className='identity'>I am a<span>{currentIdentity}</span></p>
+        <SocialList />
         <Button> Get in touch   <i className='fa-solid fa-arrow-right'></i>
         </Button>
       </div>
