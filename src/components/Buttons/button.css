@@ -1,0 +1,14 @@
+.button {
+	padding: 0.5rem 1.5rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: none;
+	outline: none;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+	background-color: #d5ac4e;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+}

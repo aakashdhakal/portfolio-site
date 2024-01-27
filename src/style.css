@@ -2,22 +2,23 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
-	/* outline: 1px dotted red; */
+	font-family: "Nunito Sans", sans-serif;
+	outline: 1px dotted red;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-around;
+	gap: 30vw;
 	align-items: center;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	height: 7vh;
+	height: 8vh;
 }
 
 .navbar ul {
 	display: flex;
 	align-items: center;
-	gap: 5rem;
+	justify-content: center;
+	gap: 3rem;
 }
 .navbar ul li {
 	list-style: none;
@@ -25,9 +26,13 @@
 .navbar ul li a {
 	text-decoration: none;
 	color: #000;
-	letter-spacing: 2px;
-	font-weight: bold;
-	font-size: 0.9rem;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 700;
+	transition: all 0.3s ease-in-out;
+}
+.navbar ul li a:hover {
+	color: #505050;
 }
 .primary-btn {
 	background-color: #9c0000;
@@ -49,16 +54,8 @@
 	gap: 1rem;
 	height: 100%;
 }
-.button {
-	padding: 0.5rem 1.5rem;
-	border-radius: 1rem;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-	border: none;
-	outline: none;
-	font-size: 0.8rem;
-	letter-spacing: 2px;
-	background-color: #d5ac4e;
-	text-transform: uppercase;
-	font-weight: bold;
+
+section {
+	background: url(./assets/wave.svg) no-repeat center center/cover;
+	height: 100vh;
 }

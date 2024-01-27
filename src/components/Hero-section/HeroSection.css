@@ -1,0 +1,44 @@
+.hero-section-image {
+	width: 25%;
+}
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 100%;
+	height: max-content;
+	gap: 15rem;
+}
+
+.hero-section-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+.identity::after {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 100%;
+	background-color: #00aec2;
+	animation: blink 1.5s infinite step-start;
+	opacity: 1;
+}
+.identity {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3px;
+	height: 2vh;
+	color: #00aec2;
+	font-size: 1.5rem;
+}
+
+@keyframes blink {
+	50% {
+		opacity: 0;
+	}
+}

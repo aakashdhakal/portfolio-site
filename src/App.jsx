@@ -1,11 +1,11 @@
 import './style.css'
+import './components/Hero-section/HeroSection.jsx'
+import HeroSection from './components/Hero-section/HeroSection.jsx'
 
-function Button(props) {
-  return <button className="button">{props.label}</button>
-}
 
 export default function Navbar() {
   return (
+    <section>
     <nav className="navbar">
       <div className="logo-name">
        <img src="src/assets/akash.svg" alt="" className="name"/>
@@ -14,9 +14,13 @@ export default function Navbar() {
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blogs</a></li>
-       <li><Button label="Contact Me" /></li>
+       <li><a href="#">Contact</a></li>
       </ul>
-    </nav>
+      </nav>
+      <div className="hero-section">
+        <HeroSection />
+      </div>
+      </section>
   )
 }
 
