@@ -22,6 +22,7 @@
 	letter-spacing: 1px;
 	font-weight: 700;
 	transition: all 0.3s ease-in-out;
+	border: none;
 }
 .navbar ul li a:hover {
 	color: #505050;

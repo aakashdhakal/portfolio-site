@@ -6,7 +6,7 @@
 	/* outline: 1px dotted red; */
 }
 
-section {
+#navHero {
 	background: url(/wave.svg) no-repeat center center/cover;
 	height: 100vh;
 }

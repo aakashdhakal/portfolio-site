@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 export default function Home() {
 
   return (
-    <section>
+    <section id='navHero'>
       <Navbar />
       <div className="hero-section">
         <HeroSection />
