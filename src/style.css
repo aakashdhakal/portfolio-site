@@ -6,47 +6,6 @@
 	/* outline: 1px dotted red; */
 }
 
-.navbar {
-	display: flex;
-	justify-content: space-around;
-	gap: 5vw;
-	align-items: center;
-	height: 8vh;
-}
-
-.navbar ul {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 3rem;
-}
-.navbar ul li {
-	list-style: none;
-}
-.navbar ul li a {
-	text-decoration: none;
-	color: #000;
-	font-size: 1rem;
-	letter-spacing: 1px;
-	font-weight: 700;
-	transition: all 0.3s ease-in-out;
-}
-.navbar ul li a:hover {
-	color: #505050;
-}
-.name {
-	object-fit: cover;
-	width: 12vw;
-	height: 100%;
-}
-.logo-name {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 1rem;
-	height: 100%;
-}
-
 section {
 	background: url(./assets/wave.svg) no-repeat center center/cover;
 	height: 100vh;

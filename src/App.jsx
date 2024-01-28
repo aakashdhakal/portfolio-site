@@ -1,25 +1,13 @@
 import './style.css'
-import './components/Hero-section/HeroSection.jsx'
 import HeroSection from './components/Hero-section/HeroSection.jsx'
-import Preloader from './components/Preloader/Preloader.jsx'
+import Navbar from './components/Navbar/Navbar.jsx';
 
 
-export default function Navbar() {
+export default function Home() {
 
   return (
     <section>
-            <Preloader/>
-    <nav className="navbar">
-      <div className="logo-name">
-       <img src="/src/assets/akash.svg" alt="" className="name"/>
-      </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blogs</a></li>
-       <li><a href="#">Contact</a></li>
-      </ul>
-      </nav>
+      <Navbar />
       <div className="hero-section">
         <HeroSection />
       </div>
