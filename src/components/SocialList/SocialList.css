@@ -1,15 +1,15 @@
-.social-list1 {
+.social-link {
 	display: flex !important;
 	justify-content: center;
 	align-items: center;
 	gap: 3rem;
 }
 
-.social-list1 li {
+.social-link li {
 	list-style: none;
 }
 
-.social-list1 li a {
+.social-link li a {
 	text-decoration: none;
 	color: #000;
 	font-size: 1.3rem;
