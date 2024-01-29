@@ -1,5 +1,5 @@
 .social-list {
-	display: flex;
+	display: flex !important;
 	justify-content: center;
 	align-items: center;
 	gap: 3rem;
