@@ -1,6 +1,6 @@
 import './HeroSection.css'
 import '../Buttons/button.jsx'
-import SocialList from '/src/components/SocialList/SocialList.jsx'
+import SocialList from '../SocialList/SocialList.jsx'
 import Button from '../Buttons/button.jsx'
 import { typingAnimation } from '../customHooks/typingAnimation.jsx'
 
