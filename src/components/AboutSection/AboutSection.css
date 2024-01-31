@@ -1,0 +1,41 @@
+#aboutSection {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 30px;
+}
+
+.about-image {
+	width: 15%;
+	height: fit-content;
+	/* border: 2px solid black;
+	border-radius: 2rem; */
+}
+.about-image img {
+	width: 100%;
+	height: 100%;
+}
+.about-text {
+	width: 45%;
+	line-height: 1.5;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+.about-text h1 {
+	position: relative;
+	width: 100%;
+}
+.about-text h1::before {
+	content: "";
+	height: 100%;
+	width: 5px;
+	background-color: #d5ac4e;
+	border-radius: 2rem;
+	display: inline-block;
+	margin-right: 10px;
+	position: absolute;
+}

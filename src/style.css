@@ -3,10 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Nunito Sans", sans-serif;
-	/* outline: 1px dotted red; */
+	outline: 1px dotted red;
 }
 
+::-webkit-scrollbar {
+	background-color: #979797;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5ac4e;
+	border-radius: 2rem;
+}
 #navHero {
 	background: url(/wave.svg) no-repeat center center/cover;
-	height: 100vh;
 }
