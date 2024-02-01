@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Nunito Sans", sans-serif;
-	outline: 1px dotted red;
+	/* outline: 1px dotted red; */
 }
 
 ::-webkit-scrollbar {
@@ -15,6 +15,16 @@
 	background-color: #d5ac4e;
 	border-radius: 2rem;
 }
+:root {
+	--body-bg-color: #ffffff;
+}
+
+.dark-mode {
+	--body-bg-color: #1a1a1a;
+}
 #navHero {
 	background: url(/wave.svg) no-repeat center center/cover;
+}
+body {
+	background-color: var(--body-bg-color);
 }
