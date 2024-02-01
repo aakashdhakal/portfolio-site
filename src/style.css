@@ -28,3 +28,16 @@
 body {
 	background-color: var(--body-bg-color);
 }
+main {
+	min-height: 500vh;
+}
+
+.scroll-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	font-size: 2rem !important;
+	color: #d5ac4e !important;
+}

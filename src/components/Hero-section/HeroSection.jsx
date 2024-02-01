@@ -2,7 +2,7 @@ import './HeroSection.css'
 import '../Buttons/button.jsx'
 import SocialList from '../SocialList/SocialList.jsx'
 import Button from '../Buttons/button.jsx'
-import { typingAnimation } from '../customHooks/typingAnimation.jsx'
+import { typingAnimation } from '../customHooks/customHooks.jsx'
 
 
 const identity = ["Web Developer", "Programmer", "Student"]
@@ -19,7 +19,7 @@ export default function HeroSection() {
         <h1>Hi, I'm Aakash Dhakal</h1>
         <p className='identity'>I am a<span>{currentIdentity}</span></p>
         <SocialList />
-        <Button> Get in touch   <i className='fa-solid fa-arrow-right'></i>
+        <Button class="button"> Get in touch   <i className='fa-solid fa-arrow-right'></i>
         </Button>
       </div>
       <div className="hero-section-image">
