@@ -56,9 +56,9 @@ export function ScrollToTop() {
   const [showScroll, setShowScroll] = useState(false);
   useEffect(() => {
     const checkScrollTop = () => {
-      if (!showScroll && window.scrollY > 300) {
+      if (!showScroll && window.scrollY > 100) {
         setShowScroll(true);
-      } else if (showScroll && window.scrollY <= 300) {
+      } else if (showScroll && window.scrollY <= 100) {
         setShowScroll(false);
       }
     };
