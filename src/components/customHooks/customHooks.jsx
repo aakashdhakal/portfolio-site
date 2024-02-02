@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react';
+import Button from '../Buttons/button';
+
+
 export function typingAnimation(identity) {
   const [index, setIndex] = useState(0);
   const [currentIdentity, setCurrentIdentity] = useState('');
@@ -49,25 +52,29 @@ export function typingAnimation(identity) {
 }
 
 
-export function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  })
-}
-
-export function RevealScrollToTop() {
-  const [showButton, setShowButton] = useState(false);
-
+export function ScrollToTop() {
+  const [showScroll, setShowScroll] = useState(false);
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
+    const checkScrollTop = () => {
+      if (!showScroll && window.scrollY > 300) {
+        setShowScroll(true);
+      } else if (showScroll && window.scrollY <= 300) {
+        setShowScroll(false);
       }
-    })
-  }, [])
+    };
+    window.addEventListener('scroll', checkScrollTop);
+    return () => window.removeEventListener('scroll', checkScrollTop);
+  }, [showScroll]);
 
-  return showButton;
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    console.log('clicked');
+  };
+  if (showScroll) {
+    return (
+      <Button name="scroll-to-top button" click={scrollTop}>
+        <i className="fa-regular fa-rocket-launch"></i>
+      </Button>
+    )
+  }
 }

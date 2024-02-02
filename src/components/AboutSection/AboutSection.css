@@ -31,12 +31,12 @@
 }
 .about-text h1::before {
 	content: "";
-	height: 80%;
-	width: 80%;
-	background: url("/marker.svg") no-repeat center center/contain;
+	height: 40%;
+	width: 70%;
+	background: url("/marker.svg") no-repeat center center/cover;
 	border-radius: 2rem;
 	display: inline;
-	bottom: -25px;
+	bottom: -20px;
 	right: 0;
 	position: absolute;
 }

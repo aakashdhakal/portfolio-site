@@ -19,7 +19,7 @@ export default function HeroSection() {
         <h1>Hi, I'm Aakash Dhakal</h1>
         <p className='identity'>I am a<span>{currentIdentity}</span></p>
         <SocialList />
-        <Button class="button"> Get in touch   <i className='fa-solid fa-arrow-right'></i>
+        <Button name="button"> Get in touch  <i className='fa-solid fa-arrow-right'></i>
         </Button>
       </div>
       <div className="hero-section-image">
