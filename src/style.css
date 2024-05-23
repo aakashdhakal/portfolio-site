@@ -41,4 +41,33 @@ main {
 	font-size: 2rem !important;
 	color: #d5ac4e !important;
 	rotate: -45deg;
+	transition: all 1s ease-in-out;
+	animation: fadeOut 1s ease-in-out forwards;
+	visibility: hidden;
+}
+
+.scroll-to-top.show {
+	animation: fadeIn 1s ease-in-out forwards;
+}
+.scroll-to-top.hide {
+	animation: fadeOut 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
 }
